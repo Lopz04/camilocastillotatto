@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Camilo Castillo, artista del tatuaje en Bogot&aacute;.">
+  <title>Camilo Castillo &mdash; Tattoo Artist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="hero">
+    <section class="intro">
+      <header class="topbar">
+        <a href="#inicio" class="avatar" aria-label="Inicio">
+          <img src="assets/avatar.png" alt="Camilo Castillo">
+        </a>
+        <button class="menu-button" id="menuButton" aria-label="Abrir men&uacute;" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </header>
+
+      <nav class="mobile-menu" id="mobileMenu" aria-label="Navegaci&oacute;n principal" aria-hidden="true">
+        <span class="menu-label">NAVEGACI&Oacute;N</span>
+        <a href="#portfolio"><span>Mi trabajo</span><small>01</small></a>
+        <a href="#booking"><span>Consultar disponibilidad</span><small>02</small></a>
+        <a href="#about"><span>Sobre m&iacute;</span><small>03</small></a>
+        <a href="#care"><span>Cuidados del tatuaje</span><small>04</small></a>
+      </nav>
+
+      <div class="intro-content" id="inicio">
+        <div class="brand">
+          <span class="kicker">Tatuador y Diseñador gráfico</span>
+          <h1>Camilo<br>Castillo</h1>
+          <p class="subtitle">Tatuajes únicos como tu historia</p>
+        </div>
+
+        <nav class="desktop-links" aria-label="Navegaci&oacute;n principal">
+          <a href="#portfolio">MI TRABAJO</a>
+          <a href="#about">SOBRE M&Iacute;</a>
+          <a href="#care">CUIDADOS DEL TATUAJE</a>
+        </nav>
+
+        <div class="intro-actions">
+          <a class="primary-button" href="https://wa.me/573219019427?text=Hola%20Camilo,%20tengo%20una%20idea%20que%20quiero%20convertir%20en%20una%20pieza%20%C3%BAnica.%20Me%20gustar%C3%ADa%20conocer%20tu%20disponibilidad%20para%20hacerla%20realidad.%20" target="_blank" rel="noopener noreferrer">Consultar disponibilidad</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="portrait-panel" id="portfolio" aria-label="Retrato de Camilo Castillo">
+      <div class="image-wrap"><img src="assets/retrato.jpg" alt="Camilo Castillo en su estudio"></div>
+      <div class="portrait-overlay"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
