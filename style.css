@@ -55,7 +55,7 @@ html { scroll-behavior:smooth; } body { background:var(--black); color:var(--pap
 /* Visor centrado en todos los tamaños de pantalla. */
 .gallery-modal { position:fixed; inset:0; width:100vw; height:100svh; max-width:none; max-height:none; margin:0; display:none; align-items:center; justify-content:center; }.gallery-modal[open] { display:flex; }.gallery-modal img { margin:0; }.gallery-close { position:fixed; top:22px; right:22px; }
 
-@media (max-width:700px) { .about-section { padding-bottom:calc(88px + clamp(82px,14svh,128px)); }.about-section .about-layout { transform:translateY(clamp(82px,14svh,128px)); } }
+@media (max-width:700px) { .about-section { padding-bottom:calc(88px + clamp(112px,18svh,164px)); }.about-section .about-layout { transform:translateY(clamp(148px,22svh,204px)); } }
 
 .portfolio-section .tattoo-grid { grid-template-rows:none; }
 
@@ -64,3 +64,6 @@ html { scroll-behavior:smooth; } body { background:var(--black); color:var(--pap
 
 /* Espaciado levemente mas amplio en los titulos. */
 .brand h1,.section-copy h2,.portfolio-heading h2,.care-intro h2,.studio-content h2 { letter-spacing:.015em; }
+
+/* Todas las secciones principales ocupan, como minimo, una pantalla completa. */
+.hero,.intro,.portrait-panel,.full-section,.studio-section { min-height:100svh; min-height:100dvh; }
